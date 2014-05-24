@@ -649,7 +649,7 @@ void sortCorners(std::vector<cv::Point2f>& corners,
     _imageView.image = [self CreateMosaicImage:_imageView.image];
 }
 
-- (IBAction)candy:(id)sender {
+- (IBAction)canny:(id)sender {
     _imageView.image = [self scan:_imageView.image isDebug:true];
     
     //_imageView.image = [self quadwithsegmentation:_imageView.image];

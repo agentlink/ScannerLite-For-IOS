@@ -13,6 +13,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 - (IBAction)selectImage:(id)sender;
 - (IBAction)mosaic:(id)sender;
-- (IBAction)candy:(id)sender;
+- (IBAction)canny:(id)sender;
 
 @end
